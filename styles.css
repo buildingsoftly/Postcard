@@ -1,0 +1,52 @@
+body {
+	background: black;
+	font-family: "Caveat", serif;
+	font-size: larger;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
+.postcard {
+	background: white;
+	width: 775px;
+	height: 500px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+	padding: 10px;
+}
+.postcard-header img {
+	width: x;
+	height: x;
+}
+.postcard-header h1 {
+	width: x;
+	margin: x;
+}
+.postcard-header img,
+.postcard-header h1 {
+	padding-inline: 100px;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: x;
+}
+.body-left,
+.body-right {
+	padding: 40px;
+}
+input {
+	border: x;
+	border-bottom: x;
+	padding: 5px;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: x;
+	padding: x;
+}
